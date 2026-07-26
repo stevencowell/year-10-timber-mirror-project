@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Interactive student portfolio workbook for the Year 10 Timber Mirror Project." />
+  <title>Mirror Project - Portfolio Workbook</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Portfolio workbook navigation">
+      <a class="brand-mark" href="index.html">
+        <span class="brand-kicker">Year 10 Timber</span>
+        <span class="brand-title">Mirror Portfolio Workbook</span>
+      </a>
+      <div class="nav-actions">
+        <a class="nav-link" href="index.html#overview">Hub</a>
+        <a class="nav-link" href="mirror_theory_notes.html">Theory Notes</a>
+        <a class="nav-link" href="index.html#assessment">Assessment</a>
+      </div>
+    </nav>
+    <div class="page-hero">
+      <p class="eyebrow">Student Workbook</p>
+      <h1 class="page-hero-title">Mirror Project Portfolio</h1>
+      <p class="page-hero-sub">Design brief, planning, evidence, process records, safety checks and final evaluation.</p>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="index.html">&larr; Back to Mirror Project Hub</a>
+    </nav>
+
+    <section class="panel-section content-section active">
+      <div class="section-heading">
+        <p class="eyebrow">Student Workbook</p>
+        <h1>Mirror Project Portfolio</h1>
+        <p>Fill this in as the project develops. Your work saves automatically in this browser. Use export when you need a backup or want to submit the text through Classroom.</p>
+      </div>
+
+      <div class="workbook-toolbar" aria-label="Workbook actions">
+        <button class="small-btn" type="button" id="saveWorkbookBtn">Save</button>
+        <button class="small-btn" type="button" id="exportWorkbookBtn">Export text</button>
+        <button class="small-btn" type="button" id="printWorkbookBtn">Print</button>
+        <button class="small-btn secondary-btn" type="button" id="clearWorkbookBtn">Clear saved work</button>
+        <span class="save-status" id="saveStatus" role="status">Ready.</span>
+      </div>
+
+      <div class="workbook-guide">
+        <article>
+          <span class="resource-tag">1</span>
+          <h3>Write As You Build</h3>
+          <p>Add short notes each lesson. Do not wait until the end and try to remember everything.</p>
+        </article>
+        <article>
+          <span class="resource-tag">2</span>
+          <h3>Use Evidence</h3>
+          <p>Take photos of marking out, cutting, joinery, dry fit, glue-up, finishing and the final mirror.</p>
+        </article>
+        <article>
+          <span class="resource-tag">3</span>
+          <h3>Be Honest</h3>
+          <p>Good portfolios explain problems and fixes. Perfect-sounding waffle is usually not evidence.</p>
+        </article>
+      </div>
+
+      <div class="visual-feature">
+        <div class="feature-copy">
+          <p class="eyebrow">Folio Model</p>
+          <h3>Build The Folio As You Build The Mirror</h3>
+          <p>This follows the Engineering workbook style: each practical stage has a visual prompt, a clear evidence target and a short explanation of what the photo proves.</p>
+        </div>
+        <figure class="feature-figure contain">
+          <img src="images/mirror-infographics/04-folio-evidence.png" alt="Mirror folio evidence checklist infographic" />
+          <figcaption>Use this as the visual checklist before students start collecting evidence.</figcaption>
+        </figure>
+      </div>
+
+      <nav class="theory-jump-list" aria-label="Workbook sections">
+        <a href="#student-details-heading">Details</a>
+        <a href="#brief-heading">Brief</a>
+        <a href="#design-heading">Design</a>
+        <a href="#materials-heading">Materials</a>
+        <a href="#process-heading">Process</a>
+        <a href="#evidence-heading">Evidence</a>
+        <a href="#problem-heading">Problems</a>
+        <a href="#safety-heading">Safety</a>
+        <a href="#evaluation-heading">Evaluation</a>
+      </nav>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="student-details-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 1</p>
+        <h2 id="student-details-heading">Student Details</h2>
+      </div>
+
+      <div class="field-grid">
+        <div class="field-group">
+          <label for="studentNameField">Student name</label>
+          <input class="student-field" id="studentNameField" data-save="student_name" type="text" />
+        </div>
+        <div class="field-group">
+          <label for="classField">Class</label>
+          <input class="student-field" id="classField" data-save="class" type="text" />
+        </div>
+        <div class="field-group">
+          <label for="teacherField">Teacher</label>
+          <input class="student-field" id="teacherField" data-save="teacher" type="text" />
+        </div>
+        <div class="field-group">
+          <label for="projectTitleField">Project title</label>
+          <input class="student-field" id="projectTitleField" data-save="project_title" type="text" value="Timber Mirror Project" />
+        </div>
+      </div>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="brief-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 2</p>
+        <h2 id="brief-heading">Design Brief</h2>
+        <p>Explain what you are making, who it is for, and what limits you need to work within.</p>
+      </div>
+
+      <div class="callout">
+        <h3>Strong Brief Formula</h3>
+        <p>I am designing and making a timber mirror for a specific user or location. It must be safe, accurate, suitable for the space, finished neatly and completed within the class time and workshop limits.</p>
+      </div>
+
+      <figure class="feature-figure contain">
+        <img src="images/mirror-infographics/01-project-brief.png" alt="Mirror project brief and success criteria infographic" />
+        <figcaption>Check that your design brief, constraints and success criteria match the actual project.</figcaption>
+      </figure>
+
+      <div class="field-grid">
+        <div class="field-group">
+          <label for="targetUserField">Target user</label>
+          <input class="student-field" id="targetUserField" data-save="target_user" type="text" />
+        </div>
+        <div class="field-group">
+          <label for="mirrorLocationField">Where the mirror could be used</label>
+          <input class="student-field" id="mirrorLocationField" data-save="mirror_location" type="text" />
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label for="briefField">Design brief</label>
+        <textarea class="student-textarea" id="briefField" data-save="design_brief" placeholder="I am designing and making a timber mirror for..."></textarea>
+      </div>
+
+      <div class="field-group">
+        <label for="constraintsField">Constraints</label>
+        <textarea class="student-textarea" id="constraintsField" data-save="constraints" placeholder="Size, available timber, workshop tools, time, safety requirements, finish choices..."></textarea>
+      </div>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="design-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 3</p>
+        <h2 id="design-heading">Design Ideas</h2>
+        <p>Record what your mirror should look like and explain why you chose that design.</p>
+      </div>
+
+      <div class="field-group">
+        <label for="designDescriptionField">Describe your chosen design</label>
+        <textarea class="student-textarea" id="designDescriptionField" data-save="design_description" placeholder="Describe the shape, size, edge profile, timber, finish and any special features."></textarea>
+      </div>
+
+      <div class="field-group">
+        <label for="designChangesField">Changes after feedback</label>
+        <textarea class="student-textarea" id="designChangesField" data-save="design_changes" placeholder="What did you change after feedback from your teacher or classmates?"></textarea>
+      </div>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="materials-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 4</p>
+        <h2 id="materials-heading">Materials and Cutting List</h2>
+        <p>List the materials and the main parts before cutting. Check sizes with your teacher before using machines.</p>
+      </div>
+
+      <div class="field-group">
+        <label for="materialsField">Materials list</label>
+        <textarea class="student-textarea" id="materialsField" data-save="materials_list" placeholder="Timber, mirror glass, backing board, glue, finish, hanging hardware..."></textarea>
+      </div>
+
+      <table class="data-table workbook-table">
+        <thead>
+          <tr>
+            <th>Part</th>
+            <th>Material</th>
+            <th>Length</th>
+            <th>Width</th>
+            <th>Qty</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input class="student-field" data-save="cut_part_1" type="text" placeholder="Top rail" /></td>
+            <td><input class="student-field" data-save="cut_material_1" type="text" /></td>
+            <td><input class="student-field" data-save="cut_length_1" type="text" /></td>
+            <td><input class="student-field" data-save="cut_width_1" type="text" /></td>
+            <td><input class="student-field" data-save="cut_qty_1" type="text" /></td>
+          </tr>
+          <tr>
+            <td><input class="student-field" data-save="cut_part_2" type="text" placeholder="Bottom rail" /></td>
+            <td><input class="student-field" data-save="cut_material_2" type="text" /></td>
+            <td><input class="student-field" data-save="cut_length_2" type="text" /></td>
+            <td><input class="student-field" data-save="cut_width_2" type="text" /></td>
+            <td><input class="student-field" data-save="cut_qty_2" type="text" /></td>
+          </tr>
+          <tr>
+            <td><input class="student-field" data-save="cut_part_3" type="text" placeholder="Side stile" /></td>
+            <td><input class="student-field" data-save="cut_material_3" type="text" /></td>
+            <td><input class="student-field" data-save="cut_length_3" type="text" /></td>
+            <td><input class="student-field" data-save="cut_width_3" type="text" /></td>
+            <td><input class="student-field" data-save="cut_qty_3" type="text" /></td>
+          </tr>
+          <tr>
+            <td><input class="student-field" data-save="cut_part_4" type="text" placeholder="Backing board" /></td>
+            <td><input class="student-field" data-save="cut_material_4" type="text" /></td>
+            <td><input class="student-field" data-save="cut_length_4" type="text" /></td>
+            <td><input class="student-field" data-save="cut_width_4" type="text" /></td>
+            <td><input class="student-field" data-save="cut_qty_4" type="text" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="process-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 5</p>
+        <h2 id="process-heading">Process Log</h2>
+        <p>Keep this short and honest. What did you do, what evidence did you collect, and what needs fixing?</p>
+      </div>
+
+      <div class="three-column">
+        <article class="workbook-card">
+          <h3>Planning and Marking Out</h3>
+          <textarea class="student-textarea" data-save="log_planning" placeholder="What did you plan, measure or mark out?"></textarea>
+        </article>
+        <article class="workbook-card">
+          <h3>Cutting and Dressing</h3>
+          <textarea class="student-textarea" data-save="log_cutting" placeholder="What tools did you use? How accurate was the result?"></textarea>
+        </article>
+        <article class="workbook-card">
+          <h3>Joinery and Dry Fit</h3>
+          <textarea class="student-textarea" data-save="log_joinery" placeholder="What joints did you make? Did the frame fit square?"></textarea>
+        </article>
+        <article class="workbook-card">
+          <h3>Assembly</h3>
+          <textarea class="student-textarea" data-save="log_assembly" placeholder="How did the glue-up or clamping go?"></textarea>
+        </article>
+        <article class="workbook-card">
+          <h3>Sanding and Finishing</h3>
+          <textarea class="student-textarea" data-save="log_finishing" placeholder="What grits and finish did you use?"></textarea>
+        </article>
+        <article class="workbook-card">
+          <h3>Mirror Fitting</h3>
+          <textarea class="student-textarea" data-save="log_fitting" placeholder="How was the mirror/backing/hardware fitted?"></textarea>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="evidence-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 6</p>
+        <h2 id="evidence-heading">Photo Evidence Checklist</h2>
+        <p>Tick each photo or sketch once you have added it to your portfolio or saved it for submission.</p>
+      </div>
+
+      <div class="two-column">
+        <article class="learning-card">
+          <h3>Build Evidence</h3>
+          <label class="checkbox-row"><input data-save="evidence_design" type="checkbox" /> Design sketch or chosen idea</label>
+          <label class="checkbox-row"><input data-save="evidence_marking" type="checkbox" /> Marking out and measuring</label>
+          <label class="checkbox-row"><input data-save="evidence_cutting" type="checkbox" /> Cutting or dressing timber</label>
+          <label class="checkbox-row"><input data-save="evidence_joinery" type="checkbox" /> Joinery or corner test</label>
+          <label class="checkbox-row"><input data-save="evidence_dry_fit" type="checkbox" /> Dry fit before glue-up</label>
+          <label class="checkbox-row"><input data-save="evidence_finish" type="checkbox" /> Sanding or finish process</label>
+          <label class="checkbox-row"><input data-save="evidence_final" type="checkbox" /> Final mirror photo</label>
+        </article>
+        <article class="learning-card">
+          <h3>Photo Caption Notes</h3>
+          <textarea class="student-textarea" data-save="evidence_caption_notes" placeholder="List your strongest photos and what each one proves. Example: Photo 3 shows the frame dry fit and checked for square."></textarea>
+        </article>
+      </div>
+
+      <div class="infographic-strip" aria-label="Example mirror project evidence photos">
+        <figure class="infographic-card">
+          <img src="images/mirror-project/mirror-frame-dry-fit.png" alt="Students dry fitting a timber mirror frame in a workshop" />
+          <figcaption>Dry-fit evidence: frame parts are checked before glue-up.</figcaption>
+        </figure>
+        <figure class="infographic-card">
+          <img src="images/mirror-project/mirror-frame-square-check.png" alt="Mirror frame corner checked with a square" />
+          <figcaption>Accuracy evidence: the corner is checked and adjusted before assembly.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="problem-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 7</p>
+        <h2 id="problem-heading">Problems and Solutions</h2>
+        <p>Strong portfolios explain what went wrong, what was changed, and what was learned.</p>
+      </div>
+
+      <div class="field-group">
+        <label for="problemsField">Problems you had</label>
+        <textarea class="student-textarea" id="problemsField" data-save="problems" placeholder="Gaps, rough cuts, twist, sanding marks, finish issues, time problems..."></textarea>
+      </div>
+      <div class="field-group">
+        <label for="solutionsField">How you fixed or managed them</label>
+        <textarea class="student-textarea" id="solutionsField" data-save="solutions" placeholder="What did you do next? What advice did you use?"></textarea>
+      </div>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="safety-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 8</p>
+        <h2 id="safety-heading">Safety Checks</h2>
+        <p>Use this section to show that safety was part of the build, not something added afterwards.</p>
+      </div>
+
+      <div class="two-column">
+        <article class="learning-card">
+          <h3>Checks Completed</h3>
+          <label class="checkbox-row"><input data-save="safe_ppe" type="checkbox" /> PPE used correctly</label>
+          <label class="checkbox-row"><input data-save="safe_clamped" type="checkbox" /> Timber clamped when required</label>
+          <label class="checkbox-row"><input data-save="safe_tools" type="checkbox" /> Tools used after demonstration</label>
+          <label class="checkbox-row"><input data-save="safe_finish" type="checkbox" /> Finish handled safely</label>
+          <label class="checkbox-row"><input data-save="safe_cleanup" type="checkbox" /> Bench and floor cleaned</label>
+        </article>
+        <article class="learning-card">
+          <h3>Safety Reflection</h3>
+          <textarea class="student-textarea" data-save="safety_reflection" placeholder="Describe one safety habit you improved during this project."></textarea>
+        </article>
+      </div>
+
+      <figure class="feature-figure">
+        <img src="images/mirror-project/finished-mirror-frame.png" alt="Finished timber mirror frame ready for evaluation" />
+        <figcaption>Final evidence should show the finished mirror clearly enough to judge construction, surface preparation, finish and fit.</figcaption>
+      </figure>
+    </section>
+
+    <section class="panel-section content-section active" aria-labelledby="evaluation-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Section 9</p>
+        <h2 id="evaluation-heading">Final Evaluation</h2>
+        <p>Evaluate the finished mirror against the brief, accuracy, finish quality, safe construction and what you would improve.</p>
+      </div>
+
+      <div class="field-grid">
+        <div class="field-group">
+          <label for="strengthsField">What worked well?</label>
+          <textarea class="student-textarea" id="strengthsField" data-save="evaluation_strengths"></textarea>
+        </div>
+        <div class="field-group">
+          <label for="improvementsField">What would you improve next time?</label>
+          <textarea class="student-textarea" id="improvementsField" data-save="evaluation_improvements"></textarea>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label for="finalEvaluationField">Final evaluation paragraph</label>
+        <textarea class="student-textarea" id="finalEvaluationField" data-save="final_evaluation" placeholder="My mirror met the design brief because..."></textarea>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Mirror Project Portfolio Workbook</p>
+    <a href="#main-content">Back to top</a>
+  </footer>
+
+  <script src="progress.js"></script>
+  <script src="workbook.js"></script>
+</body>
+</html>
