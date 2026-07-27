@@ -1,4 +1,5 @@
 window.MIRROR_ACTIVITY = {
+  title: 'Timber Materials',
   storageKey: 'mirror-timber-materials-activity-v1',
   questions: [
     { question: 'Which timber board is the best choice for a long mirror-frame member?', options: ['A board with major bow and a split near one end', 'A straight, stable board long enough for the component with no serious defects near the joint area', 'The shortest board, even if it cannot make the full component', 'Any board, because timber defects do not affect a frame'], correct: 1, hint: 'The best board supports accuracy, strength and a neat finish.', strongHint: 'Look for straightness, sufficient length and a clear joint area.', feedback: ['Bow and splits can make a long frame member difficult to machine and assemble accurately.', 'Correct. Straight, stable timber with clear joint areas gives the best chance of a square, strong frame.', 'A component must be cut from timber long enough for its finished size and any needed allowance.', 'Defects can affect strength, accuracy, machining and appearance.'] },

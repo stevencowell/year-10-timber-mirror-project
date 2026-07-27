@@ -1,4 +1,5 @@
 window.MIRROR_ACTIVITY = {
+  title: 'Measuring and Marking',
   storageKey: 'mirror-measuring-marking-activity-v1',
   questions: [
     { question: 'What is a datum edge?', options: ['A rough edge left after sawing', 'A consistent straight reference edge used for measuring and marking', 'The decorative face of the timber', 'A type of wood finish'], correct: 1, hint: 'A datum is a reference used to keep related measurements consistent.', strongHint: 'Which option gives you one reliable starting edge for all your marking?', feedback: ['A rough sawn edge is not reliable enough to use as a datum.', 'Correct. A datum edge is the consistent reference used to control accurate marking.', 'The visible face can be important, but it is not automatically the measuring datum.', 'A datum is a reference, not a finish.'] },
