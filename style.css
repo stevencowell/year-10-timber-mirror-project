@@ -1459,6 +1459,53 @@ body.home-page .site-footer p { margin: 3px; }
   resize: vertical;
 }
 
+/* Guided-practice finish shared with the Folding Chair course. */
+.mirror-activity-section { margin-top: 1.6rem; padding: 1.5rem; border: 1px solid #c8ddec; border-top: 5px solid var(--timber); border-radius: 16px; background: linear-gradient(145deg, #eef7ff, #f8fbff); }
+.mirror-activity-heading { display: flex; justify-content: space-between; gap: 1.4rem; align-items: flex-start; padding-bottom: 1rem; border-bottom: 1px solid #c8ddec; }
+.mirror-activity-heading .eyebrow { display: flex; align-items: center; gap: .5rem; }
+.mirror-activity-heading .eyebrow::before { content: '✎'; display: inline-grid; place-items: center; width: 1.75rem; height: 1.75rem; border-radius: .45rem; color: #fff; background: var(--timber); font-size: 1.1rem; }
+.mirror-progress-ring { width: 5.5rem; height: 5.5rem; flex: 0 0 5.5rem; border: 7px solid #dfeaf4; border-top-color: var(--timber); border-radius: 50%; display: grid; place-content: center; text-align: center; }
+.mirror-progress-ring.written { border-top-color: #0d7a68; }
+.mirror-progress-ring strong { color: var(--timber); font-size: 1.05rem; }
+.mirror-progress-ring span { color: var(--muted); font-size: .7rem; }
+.mirror-question-list, .mirror-written-list { display: grid; gap: 1rem; margin-top: 1.25rem; }
+.mirror-question-card, .mirror-written-card { padding: 1.25rem; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.mirror-question-card.mastered, .mirror-written-card.reviewed { border-color: #93cdbf; background: #fbfffe; }
+.mirror-question-card h3 { margin: 0 0 1rem; font-size: 1.06rem; }
+.mirror-question-card h3 span { display: inline-grid; place-items: center; width: 2rem; height: 2rem; margin-right: .55rem; border-radius: 50%; background: var(--timber); color: #fff; }
+.mirror-options { display: grid; gap: .55rem; }
+.mirror-option { display: grid !important; grid-template-columns: 1.35rem 1fr; gap: .65rem; padding: .7rem .75rem; border: 1px solid #cbd5df; border-radius: 9px; background: #fff; cursor: pointer; }
+.mirror-option:hover { border-color: var(--timber); background: var(--wash); }
+.mirror-option:has(input:checked) { border-color: var(--timber); box-shadow: 0 0 0 2px rgba(11,95,173,.1); }
+.mirror-option.correct { border-color: #81c4b5; background: #e9f8f3; }
+.mirror-option.wrong { border-color: #e0a6a6; background: #fff2f2; }
+.mirror-actions, .mirror-button-row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-top: 1rem; }
+.mirror-actions em { margin-left: auto; color: var(--muted); font-style: normal; font-size: .88rem; }
+.mirror-primary-button, .mirror-secondary-button, .mirror-score-button { min-height: 2.7rem; padding: .55rem .9rem; border-radius: 9px; font-weight: 800; cursor: pointer; }
+.mirror-primary-button { border: 1px solid var(--timber); background: var(--timber); color: #fff; }
+.mirror-primary-button:hover { background: #003f80; }
+.mirror-secondary-button, .mirror-score-button { border: 1px solid #aebfd0; background: #fff; color: var(--timber); }
+.mirror-secondary-button:hover, .mirror-score-button:hover { background: var(--wash); }
+.mirror-hint, .mirror-feedback, .mirror-model { margin-top: .85rem; padding: .8rem 1rem; border-radius: 9px; }
+.mirror-hint { background: #eef6ff; border-left: 4px solid var(--timber); }
+.mirror-feedback.correct { background: #e9f8f3; border-left: 4px solid #0d7a68; }
+.mirror-feedback.not-yet { background: #fff5dc; border-left: 4px solid #b57600; }
+.mirror-scaffold { margin: 1rem 0; padding: .9rem 1rem; border-left: 4px solid var(--timber); border-radius: 0 9px 9px 0; background: var(--wash); }
+.mirror-scaffold ul { margin-bottom: 0; }
+.mirror-written-card textarea { width: 100%; min-height: 11rem; padding: .8rem; border: 1px solid #aebfd0; border-radius: 9px; resize: vertical; }
+.mirror-response-meta { display: flex; justify-content: space-between; gap: 1rem; margin-top: .65rem; color: var(--muted); font-size: .9rem; }
+.mirror-score { margin-top: 1rem; }
+.mirror-score-button { margin: .45rem .35rem 0 0; min-height: 2.2rem; }
+.mirror-score-button.selected { color: #fff; border-color: var(--timber); background: var(--timber); }
+.mirror-completion-card { margin-top: 1.6rem; padding: 1.5rem; border: 1px solid var(--line); border-top: 5px solid #0d7a68; border-radius: 16px; background: linear-gradient(140deg, #f7fbff, #f4fffb); }
+.mirror-completion-summary, .mirror-student-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .7rem; margin: 1rem 0; }
+.mirror-completion-summary div { padding: .85rem; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+.mirror-completion-summary span { display: block; color: var(--muted); font-size: .85rem; }
+.mirror-completion-summary strong { color: var(--timber); }
+.mirror-student-fields label { display: grid; gap: .35rem; color: var(--timber); font-weight: 800; }
+.mirror-student-fields input { min-height: 2.7rem; padding: .55rem .7rem; border: 1px solid #aebfd0; border-radius: 8px; background: #fff; }
+@media (max-width: 720px) { .mirror-activity-heading { display: block; } .mirror-progress-ring { margin-top: 1rem; } .mirror-completion-summary, .mirror-student-fields { grid-template-columns: 1fr; } .mirror-actions em { width: 100%; margin-left: 0; } }
+
 .quiz-card label {
   display: block;
   margin: 0.35rem 0;
