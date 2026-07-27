@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Evidence-first student folio for the Year 10 Timber Mirror Project." />
+  <title>Mirror Project | Student Folio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mirror-folio.css" />
+</head>
+<body class="folio-page">
+  <a class="skip-link" href="#main-content">Skip to folio</a>
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Folio navigation">
+      <a class="brand-mark" href="index.html"><span class="brand-kicker">Year 10 Timber</span><span class="brand-title">Mirror Project Folio</span></a>
+      <div class="nav-actions"><a class="nav-link" href="index.html">Project hub</a><a class="nav-link" href="mirror_assessment.html">Assessment guide</a></div>
+    </nav>
+    <div class="page-hero folio-hero">
+      <p class="eyebrow">Student evidence workbook</p>
+      <h1 class="page-hero-title">Build your folio as you build your mirror</h1>
+      <p class="page-hero-sub">Complete one evidence card at a time. Your work saves in this browser. Download a ZIP backup and submit it through Google Classroom when your teacher asks.</p>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell folio-shell">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">&larr; Back to Mirror Project Hub</a></nav>
+    <section class="folio-intro" aria-labelledby="folio-intro-heading">
+      <div>
+        <p class="eyebrow">Evidence first</p>
+        <h2 id="folio-intro-heading">Show the decisions, process and result</h2>
+        <p>A strong folio is not perfect-sounding waffle. It shows what you planned, what evidence you collected, what went wrong, what you changed and what the finished mirror proves.</p>
+      </div>
+      <ol class="folio-routine"><li><strong>1. Collect</strong><span>Take a useful photo, sketch or note.</span></li><li><strong>2. Explain</strong><span>Say what it proves and why it matters.</span></li><li><strong>3. Back up</strong><span>Download your ZIP before changing devices.</span></li></ol>
+    </section>
+    <figure class="folio-infographic">
+      <img src="images/mirror-folio/build-your-folio-guide.png" alt="Infographic showing students collecting evidence, explaining their decisions, then backing up and submitting their Mirror Project folio." />
+      <figcaption>Use this routine every lesson: collect useful evidence, explain what it proves, then back up your work.</figcaption>
+    </figure>
+
+    <section class="folio-controls" aria-labelledby="student-details-heading">
+      <div class="folio-control-copy"><p class="eyebrow">Your session</p><h2 id="student-details-heading">Student details and saving</h2><p id="folioStatus" role="status">Ready. Autosave is on.</p></div>
+      <div class="folio-details">
+        <label>First name<input id="studentFirst" type="text" autocomplete="given-name" /></label>
+        <label>Last name<input id="studentLast" type="text" autocomplete="family-name" /></label>
+        <label>Class<input id="studentClass" type="text" /></label>
+        <label>Date<input id="sessionDate" type="date" /></label>
+      </div>
+      <div class="folio-actions">
+        <button class="small-btn" type="button" id="downloadZip">Download ZIP backup</button>
+        <button class="small-btn secondary-btn" type="button" id="restoreSession">Restore ZIP or JSON</button>
+        <button class="small-btn secondary-btn" type="button" id="downloadJson">Download JSON</button>
+        <button class="small-btn secondary-btn" type="button" id="printFolio">Print / Save PDF</button>
+        <button class="small-btn secondary-btn" type="button" id="clearFolio">Clear workbook</button>
+        <input id="restoreInput" type="file" accept=".zip,.json,application/zip,application/json" hidden />
+      </div>
+      <div class="folio-progress" aria-label="Folio progress"><div class="progress-label"><strong id="progressCount">0 of 12 evidence cards complete</strong><span id="progressHint">Add a response and evidence note to complete a card.</span></div><div class="progress-track"><span id="progressBar"></span></div></div>
+    </section>
+
+    <section class="folio-submission" aria-labelledby="submission-heading"><div><p class="eyebrow">When your teacher asks</p><h2 id="submission-heading">Submit your evidence</h2><p>Download your ZIP backup. It includes your answers and the photos you attached. Upload that one ZIP file to the Mirror Project folio assignment in Google Classroom.</p></div><div class="submission-badge">ZIP<br /><span>answers + photos</span></div></section>
+    <section id="folioCards" class="folio-cards" aria-label="Mirror project folio evidence cards"></section>
+  </main>
+  <footer class="site-footer"><p>Year 10 Timber &mdash; Mirror Project Folio</p><a href="#main-content">Back to top</a></footer>
+  <script src="mirror-folio.js"></script>
+</body>
+</html>
