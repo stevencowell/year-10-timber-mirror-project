@@ -1,5 +1,43 @@
 (() => {
-  const make = (title, key, questions, writing) => ({ title, storageKey: `mirror-${key}-activity-v1`, questions, writing });
+  const theoryTargets = {
+    joinery: [
+      { id: 'joinery-mortise-tenon', title: 'Mortise and Tenon' },
+      { id: 'joinery-dry-fit', title: 'Dry-fit before glue' },
+      { id: 'joinery-common-mistakes', title: 'Common joinery mistakes' }
+    ],
+    routing: [
+      { id: 'routing-plan-the-cut', title: 'Plan the cut before the router starts' },
+      { id: 'routing-project-choices', title: 'Router Choices In The Mirror Project' },
+      { id: 'routing-safe-checklist', title: 'Safe Routing Checklist' }
+    ],
+    finishing: [
+      { id: 'finishing-routine', title: 'Finishing Routine' },
+      { id: 'finishing-quality-checks', title: 'Quality Checks Before The First Coat' },
+      { id: 'finishing-chemical-safety', title: 'Chemical Safety' }
+    ],
+    design: [
+      { id: 'design-from-brief', title: 'From Brief To Final Design' },
+      { id: 'design-constraints', title: 'Constraints make a design realistic' },
+      { id: 'design-decision-examples', title: 'Design Decision Examples' }
+    ],
+    fitting: [
+      { id: 'fitting-sequence', title: 'Fitting Sequence' },
+      { id: 'fitting-prepare-area', title: 'Prepare the fitting area first' },
+      { id: 'fitting-retaining-methods', title: 'Retaining Methods' }
+    ],
+    evaluation: [
+      { id: 'evaluation-criteria', title: 'Evaluation Criteria' },
+      { id: 'evaluation-evidence', title: 'Use both visible and process evidence' },
+      { id: 'evaluation-strong-structure', title: 'Strong Evaluation Structure' }
+    ]
+  };
+  const make = (title, key, questions, writing) => ({
+    title,
+    storageKey: `mirror-${key}-activity-v1`,
+    questions,
+    theoryTargets: theoryTargets[key],
+    writing
+  });
   const activity = {
     joinery: make('Joinery', 'joinery', [
       { question: 'Why is a mortise and tenon joint suitable for a mirror frame?', options: ['It provides mechanical support and a large glue area.', 'It removes the need to measure.', 'It makes timber lighter.', 'It replaces all clamps.'], correct: 0, hint: 'Think about strength and glue surface.', strongHint: 'A frame joint must resist pulling and racking forces.', feedback: ['Correct. The joint has mechanical support as well as substantial glue area.', 'Accurate marking is still essential.', 'The joint does not change the timber weight.', 'Clamping is still needed during glue-up.'] },

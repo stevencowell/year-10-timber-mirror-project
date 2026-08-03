@@ -1522,6 +1522,12 @@ body.home-page .site-footer p { margin: 3px; }
 .mirror-secondary-button:hover, .mirror-score-button:hover { background: var(--wash); }
 .mirror-hint, .mirror-feedback, .mirror-model { margin-top: .85rem; padding: .8rem 1rem; border-radius: 9px; }
 .mirror-hint { background: #eef6ff; border-left: 4px solid var(--timber); }
+.mirror-hint p { margin: 0; }
+.mirror-hint a { color: var(--timber); font-weight: 900; }
+.mirror-hint-detail { margin-top: .7rem; }
+.mirror-secondary-hint { margin-top: .7rem !important; padding-top: .7rem; border-top: 1px solid #b8cadb; }
+.content-section h3[id] { scroll-margin-top: 1.25rem; }
+.content-section h3[id]:focus { outline: 4px solid #ffbf47; outline-offset: 4px; }
 .mirror-feedback.correct { background: #e9f8f3; border-left: 4px solid #0d7a68; }
 .mirror-feedback.not-yet { background: #fff5dc; border-left: 4px solid #b57600; }
 .mirror-scaffold { margin: 1rem 0; padding: .9rem 1rem; border-left: 4px solid var(--timber); border-radius: 0 9px 9px 0; background: var(--wash); }
