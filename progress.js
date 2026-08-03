@@ -49,3 +49,5 @@ window.MirrorProgress = {
   setItems: mirrorSetProgressItems
 };
 
+(() => { if (!document.querySelector('script[src*="shared/hub-navigation.js"]')) { const script = document.createElement('script'); script.src = '/year-10-timber-mirror-project/shared/hub-navigation.js'; document.head.append(script); } })();
+

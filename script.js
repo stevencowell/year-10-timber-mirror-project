@@ -269,3 +269,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initProgressTracker();
   initQuizFeatures();
 });
+
+(() => { const script = document.createElement('script'); script.src = '/year-10-timber-mirror-project/shared/hub-navigation.js'; document.head.append(script); })();
