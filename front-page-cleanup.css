@@ -1,0 +1,6 @@
+/* Keep the project entry page to the common course route: hero, orientation and pathway. */
+.course-family-hero figcaption,
+.mirror-course-card,
+.mirror-resource-row {
+  display: none !important;
+}
