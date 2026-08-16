@@ -11,7 +11,7 @@
       "section": "theory-1",
       "heading": "Plan and Prepare",
       "query": "Plan and Prepare woodworking education",
-      "watchFor": "the decisions, checks and sequence connected to plan and prepare.",
+      "watchFor": "how stronger risk controls are selected before relying on PPE.",
       "selected": {
         "id": "XOkPcLD5Soo",
         "title": "The Hierarchy of Controls",
@@ -62,7 +62,7 @@
       "section": "theory-1",
       "heading": "Timber Materials",
       "query": "Timber Materials woodworking tutorial",
-      "watchFor": "the decisions, checks and sequence connected to timber materials.",
+      "watchFor": "how grain direction and timber movement affect accurate frame components.",
       "selected": {
         "id": "oZkYLVrTYe4",
         "title": "The Way Wood Works -- What Every Woodworker Needs to Know About Wood.",
@@ -113,7 +113,7 @@
       "section": "theory-1",
       "heading": "Measuring and Marking",
       "query": "Measuring and Marking woodworking tutorial",
-      "watchFor": "the decisions, checks and sequence connected to measuring and marking.",
+      "watchFor": "how datum faces and edges keep related measurements consistent.",
       "selected": {
         "id": "SNaSW5b9aWE",
         "title": "Face edge and face side",
@@ -164,7 +164,7 @@
       "section": "theory-1",
       "heading": "Joinery",
       "query": "Joinery woodworking education",
-      "watchFor": "the decisions, checks and sequence connected to joinery.",
+      "watchFor": "how shoulders, cheeks and repeated fitting produce a strong accurate joint.",
       "selected": {
         "id": "aBodzmUGtdw",
         "title": "How to make a Mortise and Tenon Joint - The Three Joints - | Paul Sellers",
@@ -215,7 +215,7 @@
       "section": "theory-1",
       "heading": "Routing and Profiles",
       "query": "Routing and Profiles woodworking education",
-      "watchFor": "the decisions, checks and sequence connected to routing and profiles.",
+      "watchFor": "how the work is supported and the rebate is produced in controlled passes.",
       "selected": {
         "id": "-KGOSwbHIuc",
         "title": "Rebates / Rabbets with a Router",
@@ -266,7 +266,7 @@
       "section": "theory-1",
       "heading": "Sanding and Finishing",
       "query": "Sanding and Finishing woodworking tutorial",
-      "watchFor": "the decisions, checks and sequence connected to sanding and finishing.",
+      "watchFor": "the ventilation, PPE and product-handling controls used during finishing.",
       "selected": {
         "id": "rLLn19Y3ULc",
         "title": "Safety Tips for Working with Wood Finishing Products",
@@ -317,7 +317,7 @@
       "section": "theory-1",
       "heading": "Design Process",
       "query": "Design Process design technology education",
-      "watchFor": "the decisions, checks and sequence connected to design process.",
+      "watchFor": "how views communicate form clearly enough to support a design decision.",
       "selected": {
         "id": "BiwmJ4t2KWM",
         "title": "Introduction to orthographic drawing",
@@ -368,7 +368,7 @@
       "section": "theory-1",
       "heading": "Mirror Fitting",
       "query": "Fitting woodworking education",
-      "watchFor": "the decisions, checks and sequence connected to mirror fitting.",
+      "watchFor": "how preparation, support and controlled handling reduce glass damage and injury.",
       "selected": {
         "id": "3qGQPd8GaHU",
         "title": "Glass Handling Best Practices | Southwind Safety Ambassadors",
@@ -403,7 +403,7 @@
       "section": "theory-1",
       "heading": "Evaluation",
       "query": "Evaluation design technology education",
-      "watchFor": "the decisions, checks and sequence connected to evaluation.",
+      "watchFor": "how evidence is separated into strengths, limitations and useful next questions.",
       "selected": {
         "id": "XDqQcdYjRlI",
         "title": "Product Research (Analysis) using the P.M.I. (Plus, Minus, Interesting) Method",

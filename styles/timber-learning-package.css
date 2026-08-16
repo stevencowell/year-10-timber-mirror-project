@@ -1,5 +1,5 @@
 :root{--module-accent:#2e7d74}
-.module-presentation-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:32px;min-height:220px;padding:28px 32px;background:linear-gradient(120deg,#edf4e7,#fff6d9);border-left:7px solid var(--module-accent,#2f6944)}
+.module-presentation-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:32px;min-height:260px;padding:21.6px;background:linear-gradient(120deg,#edf4e7,#fff6d9);border-left:7px solid var(--module-accent,#2f6944)}
 .module-presentation-card h2{margin:.2rem 0 .55rem}.module-presentation-card p{max-width:760px}.module-presentation-card .section-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.82rem;font-weight:800;color:var(--module-accent,#2f6944)}
 .module-presentation-card .primary-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border-radius:10px;background:var(--module-accent,#2f6944);color:#fff;text-decoration:none;font-weight:800;white-space:nowrap;justify-self:end}
 .section-video{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,42%);gap:24px;align-items:center;margin-top:28px;padding:22px;border:1px solid #cbd8d4;border-radius:18px;background:#f7faf9}
@@ -11,3 +11,15 @@
 @media print{.section-video,.module-presentation-card .primary-button{display:none!important}}
 
 .timber-module-page .page-hero{min-height:295px;display:flex;flex-direction:column;justify-content:center}.timber-module-page .page-shell{width:min(1180px,calc(100% - 72px));margin:72px auto 0}.timber-module-page .page-hero-title{font-size:76.8px;line-height:1.15}.timber-module-page .module-presentation-card{margin-bottom:24px}.timber-module-page .content-section,.timber-module-page .mirror-activity-section,.timber-module-page .mirror-completion-card{margin-bottom:24px}@media(max-width:680px){.timber-module-page .page-shell{width:min(1180px,calc(100% - 64px))}.timber-module-page .page-hero-title{font-size:40px;line-height:46px}}
+
+.aligned-student-evidence{display:grid;grid-template-columns:1fr;gap:14px;margin:0 0 24px;padding:0;background:transparent;border:0;box-shadow:none}
+.aligned-student-evidence h2{margin:.2rem 0 .35rem;font-size:1.35rem}
+.aligned-student-evidence p{margin:.2rem 0;color:#51606d}
+.aligned-student-evidence .student-fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(150px,.7fr);gap:12px;margin:0}
+.aligned-student-evidence .student-fields label{display:grid;gap:5px;font-weight:800;color:#172736}
+.aligned-student-evidence .student-fields input{width:100%;min-width:0;min-height:52px;padding:12px 14px;border:1px solid #aebccc;border-radius:9px;background:#fff;font:inherit}
+.aligned-student-evidence .save-state{margin:0;color:#176944;font-weight:800}
+.mirror-completion-card .mirror-button-row a{display:inline-flex;align-items:center;text-decoration:none}
+.timber-module-page .content-section{padding:21.6px;border-radius:16px;background:#fff}
+@media(max-width:900px){.aligned-student-evidence .student-fields{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.aligned-student-evidence .student-fields{grid-template-columns:1fr}.timber-module-page .content-section{padding:21px 18px}}
