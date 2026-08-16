@@ -1,0 +1,457 @@
+{
+  "buildId": "section-video-2026-08-16T01:54:48.131Z",
+  "course": "Mirror",
+  "repo": "year-10-timber-mirror-project",
+  "validationDate": "2026-08-16",
+  "status": "PASS",
+  "videos": [
+    {
+      "module": "module-01",
+      "route": "mirror_theory_safety.html",
+      "section": "theory-1",
+      "heading": "Plan and Prepare",
+      "query": "Plan and Prepare woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to plan and prepare.",
+      "selected": {
+        "id": "XOkPcLD5Soo",
+        "title": "The Hierarchy of Controls",
+        "author": "Healthier Workforce Center",
+        "url": "https://www.youtube.com/watch?v=XOkPcLD5Soo",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "m3CqH4DjVlI",
+          "title": "15 woodworking basics you should know",
+          "author": "DIY Montreal",
+          "url": "https://www.youtube.com/watch?v=m3CqH4DjVlI",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "2_96gNMMc_g",
+          "title": "Stock Prep by Hand – Christopher Schwarz",
+          "author": "Popular Woodworking",
+          "url": "https://www.youtube.com/watch?v=2_96gNMMc_g",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "BVOQ2JTiktY",
+          "title": "The only beginner video you need to watch....EVER",
+          "author": "Lincoln St. Woodworks",
+          "url": "https://www.youtube.com/watch?v=BVOQ2JTiktY",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "FB6pXYWRous",
+          "title": "The 10 Woodworking Mistakes Every Beginner Makes",
+          "author": "Blueprints & Boards",
+          "url": "https://www.youtube.com/watch?v=FB6pXYWRous",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "module-02",
+      "route": "mirror_theory_timber.html",
+      "section": "theory-1",
+      "heading": "Timber Materials",
+      "query": "Timber Materials woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to timber materials.",
+      "selected": {
+        "id": "oZkYLVrTYe4",
+        "title": "The Way Wood Works -- What Every Woodworker Needs to Know About Wood.",
+        "author": "Workshop Companion",
+        "url": "https://www.youtube.com/watch?v=oZkYLVrTYe4",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "PXRkeh4wb24",
+          "title": "7 Simple Jigs That Beat Expensive Woodworking Tools!",
+          "author": "Biscuit Tree Woodworks",
+          "url": "https://www.youtube.com/watch?v=PXRkeh4wb24",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "uJh0jd6wxhY",
+          "title": "Woodworking tips and tricks! How to make a reliable corner joint for boards of different sizes",
+          "author": "Simple Creative",
+          "url": "https://www.youtube.com/watch?v=uJh0jd6wxhY",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "oZkYLVrTYe4",
+          "title": "The Way Wood Works -- What Every Woodworker Needs to Know About Wood.",
+          "author": "Workshop Companion",
+          "url": "https://www.youtube.com/watch?v=oZkYLVrTYe4",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "Ls1ayLoDedI",
+          "title": "Beginner Woodworking and Carpentry Terminology Part 1",
+          "author": "Training Hands Academy",
+          "url": "https://www.youtube.com/watch?v=Ls1ayLoDedI",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "module-03",
+      "route": "mirror_theory_marking.html",
+      "section": "theory-1",
+      "heading": "Measuring and Marking",
+      "query": "Measuring and Marking woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to measuring and marking.",
+      "selected": {
+        "id": "SNaSW5b9aWE",
+        "title": "Face edge and face side",
+        "author": "Mike Worth",
+        "url": "https://www.youtube.com/watch?v=SNaSW5b9aWE",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "ZIjNaaPh5FQ",
+          "title": "The basics of Japanese measuring and marking.",
+          "author": "Japanese Tools Australia",
+          "url": "https://www.youtube.com/watch?v=ZIjNaaPh5FQ",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "nuEz8TtrfjM",
+          "title": "The Work Around: How to Mark Wood Accurately Before Cutting | HGTV",
+          "author": "HGTV",
+          "url": "https://www.youtube.com/watch?v=nuEz8TtrfjM",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "F202Whnx27M",
+          "title": "DIY Basics - Learn How to Mark, Measure and Cut Wood | The Home Depot",
+          "author": "The Home Depot",
+          "url": "https://www.youtube.com/watch?v=F202Whnx27M",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "RDar0rrCVOw",
+          "title": "Why Your Cuts Are Off (How To Mark + Cut Like a Pro)",
+          "author": "Essential Craftsman",
+          "url": "https://www.youtube.com/watch?v=RDar0rrCVOw",
+          "validated": "2026-08-16",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "module": "module-04",
+      "route": "mirror_theory_joinery.html",
+      "section": "theory-1",
+      "heading": "Joinery",
+      "query": "Joinery woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to joinery.",
+      "selected": {
+        "id": "aBodzmUGtdw",
+        "title": "How to make a Mortise and Tenon Joint - The Three Joints - | Paul Sellers",
+        "author": "Paul Sellers",
+        "url": "https://www.youtube.com/watch?v=aBodzmUGtdw",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "fdz_LDPcnIY",
+          "title": "9 Amazing Wood Joinery Techniques #woodworking #joints",
+          "author": "GS DIY MAKER",
+          "url": "https://www.youtube.com/watch?v=fdz_LDPcnIY",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "USVctg0elYk",
+          "title": "21 Wood Joinery with Tool Hacks | Japanese Woodworking",
+          "author": "YASUHIRO TV",
+          "url": "https://www.youtube.com/watch?v=USVctg0elYk",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "m3CqH4DjVlI",
+          "title": "15 woodworking basics you should know",
+          "author": "DIY Montreal",
+          "url": "https://www.youtube.com/watch?v=m3CqH4DjVlI",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "Ls1ayLoDedI",
+          "title": "Beginner Woodworking and Carpentry Terminology Part 1",
+          "author": "Training Hands Academy",
+          "url": "https://www.youtube.com/watch?v=Ls1ayLoDedI",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "module-05",
+      "route": "mirror_theory_routing.html",
+      "section": "theory-1",
+      "heading": "Routing and Profiles",
+      "query": "Routing and Profiles woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to routing and profiles.",
+      "selected": {
+        "id": "-KGOSwbHIuc",
+        "title": "Rebates / Rabbets with a Router",
+        "author": "Mitch Peacock • Designer Woodworker",
+        "url": "https://www.youtube.com/watch?v=-KGOSwbHIuc",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "i8J_oL3FJtU",
+          "title": "Essential Router Skills: A NO BS Beginner's Guide to Woodworking",
+          "author": "Jonathan Katz-Moses",
+          "url": "https://www.youtube.com/watch?v=i8J_oL3FJtU",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "gVQ9VoigQoI",
+          "title": "Making and Using Router Templates - Rockler Demo",
+          "author": "Rockler Woodworking and Hardware",
+          "url": "https://www.youtube.com/watch?v=gVQ9VoigQoI",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "bCKe3llVE8I",
+          "title": "Basic Router Techniques | Newbie",
+          "author": "Training Hands Academy",
+          "url": "https://www.youtube.com/watch?v=bCKe3llVE8I",
+          "validated": "2026-08-16",
+          "score": 0
+        },
+        {
+          "id": "mcLBmdYs5iU",
+          "title": "How To Use A Router | Newbie",
+          "author": "Training Hands Academy",
+          "url": "https://www.youtube.com/watch?v=mcLBmdYs5iU",
+          "validated": "2026-08-16",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "module": "module-06",
+      "route": "mirror_theory_finishing.html",
+      "section": "theory-1",
+      "heading": "Sanding and Finishing",
+      "query": "Sanding and Finishing woodworking tutorial",
+      "watchFor": "the decisions, checks and sequence connected to sanding and finishing.",
+      "selected": {
+        "id": "rLLn19Y3ULc",
+        "title": "Safety Tips for Working with Wood Finishing Products",
+        "author": "Rockler Woodworking and Hardware",
+        "url": "https://www.youtube.com/watch?v=rLLn19Y3ULc",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "fMOU7gxL_pk",
+          "title": "Sanding Past 220 - How Smooth Should You Go? #woodworking #diy",
+          "author": "Workshop Companion",
+          "url": "https://www.youtube.com/watch?v=fMOU7gxL_pk",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "mKairfMzc6Q",
+          "title": "The Only 3 Sandpapers You Really Need | SANDING BASICS",
+          "author": "Steve Ramsey - Woodworking for Mere Mortals",
+          "url": "https://www.youtube.com/watch?v=mKairfMzc6Q",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "KiE4Pk_gu50",
+          "title": "Sanding Technique and Grits - 2 Minute Tuesday",
+          "author": "Jonathan Katz-Moses",
+          "url": "https://www.youtube.com/watch?v=KiE4Pk_gu50",
+          "validated": "2026-08-16",
+          "score": 4
+        },
+        {
+          "id": "edulbAmdv-A",
+          "title": "Beginner Sanding Mistakes | How to Sand",
+          "author": "YouCanMakeThisToo",
+          "url": "https://www.youtube.com/watch?v=edulbAmdv-A",
+          "validated": "2026-08-16",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "module": "module-07",
+      "route": "mirror_theory_design.html",
+      "section": "theory-1",
+      "heading": "Design Process",
+      "query": "Design Process design technology education",
+      "watchFor": "the decisions, checks and sequence connected to design process.",
+      "selected": {
+        "id": "BiwmJ4t2KWM",
+        "title": "Introduction to orthographic drawing",
+        "author": "Riaan Meeser",
+        "url": "https://www.youtube.com/watch?v=BiwmJ4t2KWM",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "jWT_Eyv1Ts0",
+          "title": "Design and Technology, design process",
+          "author": "Covenant Christian School NSW",
+          "url": "https://www.youtube.com/watch?v=jWT_Eyv1Ts0",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "xUULcG2NEno",
+          "title": "THE STAGES OF THE DESIGN PROCESS (THE DESIGN PROCESS)",
+          "author": "GAS E-LEARNING TV",
+          "url": "https://www.youtube.com/watch?v=xUULcG2NEno",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "MAhpfFt_mWM",
+          "title": "The Engineering Design Process: A Taco Party",
+          "author": "KQED QUEST",
+          "url": "https://www.youtube.com/watch?v=MAhpfFt_mWM",
+          "validated": "2026-08-16",
+          "score": 10
+        },
+        {
+          "id": "6zgdVc6U_2I",
+          "title": "Design and Technologies: what are they for?",
+          "author": "Teaching and Learning in South Australia",
+          "url": "https://www.youtube.com/watch?v=6zgdVc6U_2I",
+          "validated": "2026-08-16",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "module": "module-08",
+      "route": "mirror_theory_fitting.html",
+      "section": "theory-1",
+      "heading": "Mirror Fitting",
+      "query": "Fitting woodworking education",
+      "watchFor": "the decisions, checks and sequence connected to mirror fitting.",
+      "selected": {
+        "id": "3qGQPd8GaHU",
+        "title": "Glass Handling Best Practices | Southwind Safety Ambassadors",
+        "author": "BOLTV - SOUTHWIND",
+        "url": "https://www.youtube.com/watch?v=3qGQPd8GaHU",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "xau74kckNMs",
+          "title": "Extremely Ingenious Skills Woodworking Worker || Making Cross Joints Bed Monolithic Wood Projects",
+          "author": "Woodworking Craftsman",
+          "url": "https://www.youtube.com/watch?v=xau74kckNMs",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "vgymSVys9Ow",
+          "title": "Woodworking Tricks You'll Actually Use || How to Scribe to an Uneven Wall",
+          "author": "Bourbon Moth Woodworking",
+          "url": "https://www.youtube.com/watch?v=vgymSVys9Ow",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "module": "module-09",
+      "route": "mirror_theory_evaluation.html",
+      "section": "theory-1",
+      "heading": "Evaluation",
+      "query": "Evaluation design technology education",
+      "watchFor": "the decisions, checks and sequence connected to evaluation.",
+      "selected": {
+        "id": "XDqQcdYjRlI",
+        "title": "Product Research (Analysis) using the P.M.I. (Plus, Minus, Interesting) Method",
+        "author": "mrdanielsos",
+        "url": "https://www.youtube.com/watch?v=XDqQcdYjRlI",
+        "validated": "2026-08-16",
+        "score": 100,
+        "review": "targeted topic match"
+      },
+      "alternatives": [
+        {
+          "id": "CjpSWrNfBlA",
+          "title": "8 Steps For Choosing Evaluation Design",
+          "author": "Lauren Saulnier",
+          "url": "https://www.youtube.com/watch?v=CjpSWrNfBlA",
+          "validated": "2026-08-16",
+          "score": 6
+        },
+        {
+          "id": "FDkR8jAJepU",
+          "title": "Designing Effective Assessments",
+          "author": "Center for Innovative Teaching and Learning",
+          "url": "https://www.youtube.com/watch?v=FDkR8jAJepU",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "GzHOG4Ff3W4",
+          "title": "HSC Design Technology 2023",
+          "author": "STEAM IT with Steve",
+          "url": "https://www.youtube.com/watch?v=GzHOG4Ff3W4",
+          "validated": "2026-08-16",
+          "score": 2
+        },
+        {
+          "id": "AKzXXEcuXSQ",
+          "title": "Design and Technology Education at ECU",
+          "author": "Edith Cowan University",
+          "url": "https://www.youtube.com/watch?v=AKzXXEcuXSQ",
+          "validated": "2026-08-16",
+          "score": 2
+        }
+      ]
+    }
+  ],
+  "review": {
+    "missing": [],
+    "duplicateIds": [],
+    "targetedOverrides": 9
+  }
+}
