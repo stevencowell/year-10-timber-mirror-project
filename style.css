@@ -465,6 +465,12 @@ input[type="checkbox"] {
 .mirror-resource-row p { margin: 0; }
 .mirror-button-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 15px; border-radius: 9px; background: var(--timber); color: #ffffff; font-weight: 900; }
 .mirror-button-link:hover { background: #003f80; color: #ffffff; }
+.resource-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
+.theory-table-wrap { overflow-x: auto; margin: 18px 0; }
+.theory-table { width: 100%; min-width: 650px; border-collapse: collapse; background: #ffffff; }
+.theory-table th, .theory-table td { border: 1px solid #cad4df; padding: 11px 12px; text-align: left; vertical-align: top; }
+.theory-table th { background: #f0edf3; color: #432f51; }
+.theory-table tbody tr:nth-child(even) { background: #fbfafc; }
 
 body.home-page .site-footer {
   display: block;
