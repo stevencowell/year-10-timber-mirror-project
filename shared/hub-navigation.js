@@ -30,7 +30,7 @@
     ["Pathway", "index.html#pathway", path.endsWith("/index.html#pathway")],
     ["Theory", "mirror_theory_notes.html", path.includes("mirror_theory")],
     ["Video learning", "youtube-library/video-library.html", path.includes("/youtube-library/")],
-    ["Busy Work", "https://stevencowell.github.io/busy-worksheets/?library=timber", false, true],
+    ["Puzzles", "https://stevencowell.github.io/busy-worksheets/?library=timber", false, true],
     ["My folio", "mirror_folio.html", path.endsWith("/mirror_folio.html")],
     ["Project plans", "Mirror-Project-Plans.pdf", false],
     ["Teacher resources", "teacher-resources.html", path.endsWith("/teacher-resources.html")],
