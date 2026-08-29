@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.1",
   "program_id": "mirror",
   "version": "v2.1",
   "teacher_facing_display": {
@@ -173,7 +173,7 @@
     {
       "id": "F1",
       "title": "Stage 5 Timber 200-hour family coverage record v2.0",
-      "authority": "local-alignment-record",
+      "authority": "quality-reference",
       "location": "Stage-5-Timber-200-Hour-Family-Coverage-Record-v2.0.json",
       "revision": "verified 2026-08-29",
       "sha256": "A9B20D2D2A988A1946A2DBE38F8B69F08A13854AA5708B6F34C433E9895B3027",
@@ -182,7 +182,7 @@
     {
       "id": "A1",
       "title": "Stage 5 Timber content allocation v2.1",
-      "authority": "master-program-allocation",
+      "authority": "local-program",
       "location": "stage5-timber-content-allocation-v2.1.json",
       "revision": "v2.1 scheduled-core allocation",
       "sha256": "4AFE8DF97F021946D6EA63ACC1C23738AF683AC11FEAC9B4CFAAA14C4F3A0888",
@@ -4245,13 +4245,13 @@
       "path": "resources/teacher/Mirror-50-Period-Teaching-Program-v2.1-Network-Benchmark.docx",
       "purpose": "editable-program",
       "version": "v2.1",
-      "sha256": "CC1AA131EBD94AE31CC9EC5ABF2639CDA1A522FCBC58766AF6A56A48CA7EB871"
+      "sha256": "2DCCEE9F8434CBAD7BD8D46FF4E274607580408B628E8FF2B09B970980549785"
     },
     {
       "path": "resources/teacher/Mirror-50-Period-Teaching-Program-v2.1-Network-Benchmark.pdf",
       "purpose": "rendered-program",
       "version": "v2.1",
-      "sha256": "DE5AA32892E54B60D7FED2AAA78C9D7C7CB1F7070AA18D7313AD1F294843C728"
+      "sha256": "D37B61D94069FF8BD19595775F6F922ADB31C5CDDB54B952B3DA94BE7D445E10"
     },
     {
       "path": "resources/teacher/Mirror-50-Period-Alignment-Manifest-v2.1.json",
